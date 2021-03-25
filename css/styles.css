@@ -42,21 +42,22 @@
     position: relative;
     width: 255px;
     height: 253px;
-    background-color: #f35e59;  
+    background-color: #f35e59;
 }
 
 .card-text {
     display: inline-block;
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
+    vertical-align: middle;
+    width: 255px;
+    top: 50%;
+    transform: translate(0, -50%);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 700;
-    color: #ffffff;
-    background-color: #f35e59;   
+    color: #ffffff; 
 }
 
 .card-text p {
