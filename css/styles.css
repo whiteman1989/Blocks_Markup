@@ -57,21 +57,16 @@ img {
 
 .card {
     display: inline-block;
-    position: relative;
-    text-align: left;
     width: 255px;
     height: 253px;
     background-color: #f35e59;
+    overflow: hidden;
 }
 
 .card-text {
-    display: inline-block;
-    position: absolute;
-    vertical-align: middle;
-    width: 255px;
-    top: 50%;
-    transform: translate(0, -50%);
-    text-align: center;
+    margin: auto;
+    width: 70;
+    padding: 25% 0;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 700;
