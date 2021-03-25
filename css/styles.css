@@ -107,12 +107,32 @@
     transition: 0.2s;   
 }
 
+.close-button {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    right: -25px;
+    top: -25px;
+    font-size: 23px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #de2b24;
+    border: 2px solid #ffffff;
+    border-radius: 50%; 
+}
+
+.close-button:hover {
+    background-color: #e4453f;
+}
+
 .button-down:hover {
     transform: scale(1.1);
 }
 
 .drop-down-form {
     display: inline-block;
+    position: relative;
     width: 684px;
     padding: 50px;
     text-align: center;
