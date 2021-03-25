@@ -69,6 +69,9 @@
 
 .card-photo {
     align-items: center;
+    width: 255px;
+    height: 253px;
+    align-items: center;
     overflow: hidden;
 }
 
@@ -80,8 +83,9 @@
 }
 
 .card-photo img {
-    min-width: 100%;
-    min-height: 100%;
+    object-fit: cover;
+    width: 255px;
+    height: 253px;
 }
 
 .h1-description {
