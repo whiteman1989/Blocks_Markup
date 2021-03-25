@@ -39,18 +39,17 @@
 
 .card {
     display: inline-block;
+    position: relative;
     width: 255px;
     height: 253px;
-    vertical-align: top; 
+    background-color: #f35e59;  
 }
 
 .card-text {
-    width: 255px;
-    height: 253px;
     display: inline-block;
-    text-align: center;
-    align-items: center;
-    vertical-align: middle;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.2;
@@ -61,7 +60,6 @@
 
 .card-text p {
     text-align: center;
-    vertical-align: middle;
 }
 
 .card-text-title {
