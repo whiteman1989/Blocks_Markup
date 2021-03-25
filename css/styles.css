@@ -103,7 +103,12 @@
     margin-top: 10px;
     background-color: rgba(70, 2, 255, 0);
     border: 3px solid #ffffff;
-    border-radius: 50%;      
+    border-radius: 50%;   
+    transition: 0.2s;   
+}
+
+.button-down:hover {
+    transform: scale(1.1);
 }
 
 .drop-down-form {
