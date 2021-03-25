@@ -145,6 +145,17 @@
     border-radius: 5px;
 }
 
+.drop-down-form::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -30px;
+    border-width: 30px;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+}
+
 .form-description {
     margin-bottom: 38px;
 }
