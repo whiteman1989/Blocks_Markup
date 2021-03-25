@@ -173,15 +173,24 @@
 
 .social-icon {
     display: inline-block;
+    position: relative;
     width: 49px;
     height: 49px;
     vertical-align: top;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    padding: auto;
     background-color: rgba(243,243,243,0.0);
     border: 2px solid #515151;
     border-radius: 6px;
+}
+
+.social-icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .social-icon:hover {
