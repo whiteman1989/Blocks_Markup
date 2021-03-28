@@ -5,6 +5,10 @@ body {
     text-align: center;
 }
 
+section {
+    overflow: hidden;
+}
+
 footer {
     background-color: #515151;
 }
